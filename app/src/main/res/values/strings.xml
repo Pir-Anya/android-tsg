@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Телетроник</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_item_uprav">ЖКХ управление</string>
+    <string name="drawer_item_news">Новости</string>
+    <string name="drawer_item_obiav">Обьявления для жильцов</string>
+
+    <string name="drawer_item_myflat">Моя квартира</string>
+    <string name="drawer_item_auth">Вход/Выход</string>
+    <string name="drawer_item_video">Видеонаблюдение</string>
+
+
+    <string name="drawer_item_services">Сервисы</string>
+    <string name="drawer_item_help">Help</string>
+    <string name="drawer_item_open_source">Open Source</string>
+    <string name="drawer_item_contact">Contact</string>
+</resources>

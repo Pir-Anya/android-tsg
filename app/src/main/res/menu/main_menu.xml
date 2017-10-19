@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <group
+                android:id="@+id/group1"
+                android:checkableBehavior="single">
+               <item android:id="@+id/nav_uprav"
+                  android:title="@string/drawer_item_uprav" >
+                <menu>
+                    <item android:id="@+id/nav_news"
+                          android:title="@string/drawer_item_news" />
+                    <item android:id="@+id/nav_obiav"
+                          android:title="@string/drawer_item_obiav" />
+                    <item android:id="@+id/submenu3"
+                          android:title="SubMenu 3" />
+                </menu>
+            </item>
+            <item android:id="@+id/nav_myflat"
+                  android:title="@string/drawer_item_myflat" >
+                  app:actionLayout="@layout/spinner"
+                  app:actionViewClass="android.support.v7.widget.Spinner"/>
+                <menu>
+                    <item android:id="@+id/nav_auth"
+                          android:title="@string/drawer_item_auth" />
+                    <item android:id="@+id/nav_video"
+                          android:title="@string/drawer_item_video" />
+                    <item android:id="@+id/submenu5"
+                          android:title="SubMenu 6" />
+                </menu>
+            </item>
+        </group>
+
+
+</menu>
